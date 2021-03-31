@@ -15,7 +15,19 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "coverage": "npm test -- --coverage",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "!<rootDir>/src/App.js",
+      "!<rootDir>/src/index.js",
+      "!<rootDir>/src/reportWebVitals.js",
+      "!src/reportWebVitals.js"
+    ],
+    "testMatch": [
+      "**/*.test.js"
+    ]
   },
   "eslintConfig": {
     "extends": [
