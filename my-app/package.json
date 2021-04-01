@@ -23,6 +23,7 @@
       "!<rootDir>/src/App.js",
       "!<rootDir>/src/index.js",
       "!<rootDir>/src/reportWebVitals.js",
+      "!<rootDir>/src/services/*",
       "!src/reportWebVitals.js"
     ],
     "testMatch": [
@@ -50,6 +51,7 @@
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^5.1.1",
-    "jest-fetch-mock": "^3.0.3"
+    "jest-fetch-mock": "^3.0.3",
+    "msw": "^0.25.0"
   }
 }
