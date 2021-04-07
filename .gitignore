@@ -1,0 +1,5 @@
+# Ignorar File Ignore
+**/node_modules/
+**/coverage/
+
+package-lock.json
