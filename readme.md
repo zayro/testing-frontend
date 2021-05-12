@@ -69,6 +69,10 @@ ng g c ./components/welcome
 
 - https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
 
+- https://www.paradigmadigital.com/dev/cypress-un-framework-de-pruebas-todo-en-uno/
+
+- https://blog.irontec.com/introduccion-automatizacion-tests-e2e-cypress-io/
+
 ## Testing React
 
 - https://blog.logrocket.com/a-quick-guide-to-testing-react-hooks-fa584c415407/
