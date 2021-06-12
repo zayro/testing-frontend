@@ -1,5 +1,6 @@
 # Ignorar File Ignore
 **/node_modules/
 **/coverage/
+**/mochawesome/
 
 package-lock.json

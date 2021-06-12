@@ -13,4 +13,4 @@ function sum() {
   }, 0);
 }
 
-module.exports = sum;
+export { sum };

@@ -1,0 +1,293 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-29T15:57:32.791Z",
+    "end": "2021-05-29T15:57:34.821Z",
+    "duration": 2030,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e0c65b23-bd69-4af1-b0d2-4ec1d7eff8d4",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "19dcfbeb-0480-420f-8aa2-986335411717",
+          "title": "#sum() Success",
+          "fullFile": "D:\\GitHub\\Testing\\testing-frontend\\Mocha\\test\\example-test-sum.js",
+          "file": "\\test\\example-test-sum.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "ae4782c2-6eea-439c-8d3a-7fe6904478bc",
+              "title": "without arguments",
+              "fullFile": "D:\\GitHub\\Testing\\testing-frontend\\Mocha\\test\\example-test-sum.js",
+              "file": "\\test\\example-test-sum.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return 0",
+                  "fullTitle": "#sum() Success without arguments should return 0",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)((0, _sum.sum)()).to.equal(0);",
+                  "err": {},
+                  "uuid": "f0a85fd1-b6f6-4130-b42f-279ca953208d",
+                  "parentUUID": "ae4782c2-6eea-439c-8d3a-7fe6904478bc",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "f0a85fd1-b6f6-4130-b42f-279ca953208d"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 3000
+            },
+            {
+              "uuid": "344e86bb-9d23-4654-883d-6a1df6945e44",
+              "title": "with number arguments",
+              "fullFile": "D:\\GitHub\\Testing\\testing-frontend\\Mocha\\test\\example-test-sum.js",
+              "file": "\\test\\example-test-sum.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return sum of arguments",
+                  "fullTitle": "#sum() Success with number arguments should return sum of arguments",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)((0, _sum.sum)(1, 2, 3, 4, 5)).to.equal(15);",
+                  "err": {},
+                  "uuid": "bfcb11fc-5c18-4b81-aee9-f06b9ca57d11",
+                  "parentUUID": "344e86bb-9d23-4654-883d-6a1df6945e44",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "bfcb11fc-5c18-4b81-aee9-f06b9ca57d11"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 3000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 3000
+        },
+        {
+          "uuid": "3972fb11-3814-4e45-a92a-911ff240b715",
+          "title": "#Sum() Error",
+          "fullFile": "D:\\GitHub\\Testing\\testing-frontend\\Mocha\\test\\example-test-sum.js",
+          "file": "\\test\\example-test-sum.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "1a7c4cc4-7a4e-43ea-9f8b-3f37336574f0",
+              "title": "with non-number arguments",
+              "fullFile": "D:\\GitHub\\Testing\\testing-frontend\\Mocha\\test\\example-test-sum.js",
+              "file": "\\test\\example-test-sum.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should throw error",
+                  "fullTitle": "#Sum() Error with non-number arguments should throw error",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)([1, 2, 3, 4, 5].reduce(function (a, b) {\n  return a + b;\n}, 0)).to.equal(15);\n(0, _chai.expect)(function () {\n  (0, _sum.sum)(1, 2, \"3\", [4], 5);\n}).to[\"throw\"](TypeError, \"sum() expects only numbers.\");",
+                  "err": {},
+                  "uuid": "9d260913-7a7c-43a6-bd5e-9a5eb26c0226",
+                  "parentUUID": "1a7c4cc4-7a4e-43ea-9f8b-3f37336574f0",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should success ...........",
+                  "fullTitle": "#Sum() Error with non-number arguments should success ...........",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)([1, 2, 3].reduce(function (a, b) {\n  return a + b;\n}, 0)).to.equal(6);",
+                  "err": {},
+                  "uuid": "d85cd9be-bf56-46fe-a8d9-b66e189b7ddd",
+                  "parentUUID": "1a7c4cc4-7a4e-43ea-9f8b-3f37336574f0",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "9d260913-7a7c-43a6-bd5e-9a5eb26c0226",
+                "d85cd9be-bf56-46fe-a8d9-b66e189b7ddd"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 3000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 3000
+        },
+        {
+          "uuid": "fa25c683-a34d-44cf-9fe5-1178a0e9d471",
+          "title": "Pruebas de Tiempos de cargas",
+          "fullFile": "D:\\GitHub\\Testing\\testing-frontend\\Mocha\\test\\example-timeout.js",
+          "file": "\\test\\example-timeout.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "optimo tiempo de ejecucion",
+              "fullTitle": "Pruebas de Tiempos de cargas optimo tiempo de ejecucion",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "e44d97bf-4d93-42f0-807b-e3e791cc790b",
+              "parentUUID": "fa25c683-a34d-44cf-9fe5-1178a0e9d471",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "demasiado tiempo de ejecucion",
+              "fullTitle": "Pruebas de Tiempos de cargas demasiado tiempo de ejecucion",
+              "timedOut": false,
+              "duration": 2014,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "3fdf968e-23f5-4699-8cdd-86362b697087",
+              "parentUUID": "fa25c683-a34d-44cf-9fe5-1178a0e9d471",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e44d97bf-4d93-42f0-807b-e3e791cc790b",
+            "3fdf968e-23f5-4699-8cdd-86362b697087"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2015,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 3000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 3000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.4.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}

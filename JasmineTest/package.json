@@ -1,10 +1,11 @@
 {
-  "name": "jasmine",
+  "name": "jasminetest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "test:dev": "jasmine ./test/*.js"
   },
   "author": "",
   "license": "ISC",
