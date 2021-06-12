@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/runtime": "^7.14.0",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "babel-jest": "^26.6.3",
+    "expect-puppeteer": "^5.0.4",
+    "jest": "^26.6.3",
+    "jest-image-snapshot": "^4.5.0",
+    "jest-puppeteer": "^5.0.3",
+    "puppeteer": "^9.1.1"
+  }
+}

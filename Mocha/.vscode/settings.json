@@ -1,5 +1,0 @@
-{
-    "mochaExplorer.files": "test/*.js",
-    "mochaExplorer.require": "@babel/register"
-    //"mochaExplorer.require": "ts-node/register"
-}
